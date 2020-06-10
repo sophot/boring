@@ -1,0 +1,14 @@
+.col {
+  width: 40%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.jumbotron {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 3em;
+}
+
+.container {
+  max-width: 75%;
+}
