@@ -1,0 +1,43 @@
+.swipe {
+  position: absolute;
+}
+
+.body__ {
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  background-color: #fff;
+  width: 70vw;
+  max-width: 70vw;
+  height: 50vh;
+  box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.45);
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card h3 {
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+  color: rgb(81, 66, 66);
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(0);
+  }
+  70% {
+    transform: scale(1.1);
+  }
+  85% {
+    transform: scale(0.94);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
